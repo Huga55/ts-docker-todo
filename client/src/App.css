@@ -1,0 +1,71 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 200px;
+  background-color: #c1c1c1;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.app__block {
+  width: 500px;
+  min-height: 400px;
+  max-height: 500px;
+  overflow: auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.app__title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.app__form {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__input {
+  width: 77%;
+}
+
+.app__record {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: azure;
+}
+
+.app__record_end {
+  background: chartreuse;
+}
+
+.app__record-text {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.app__delete {
+  height: 37px;
+}
+
+.app__sort {
+  display: flex;
+  align-items: flex-start;
+}
+
+.app__sort_active {
+  border-bottom: 4px solid chartreuse;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+.app__sort-block {
+  margin-right: 10px;
+}
