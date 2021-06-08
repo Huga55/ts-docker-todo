@@ -13,3 +13,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### About the project
+
+This project looks like todo list. Here you can create any record, then mark it as ready and if you want, then delete.
+And there is any sorting. I used react js, redux, material ui, docker for this project.  
